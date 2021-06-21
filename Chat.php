@@ -6,3 +6,4 @@ $feed = 'Chat.txt';
 $fb = fopen($feed, 'a+');
 fwrite($fb, '['.$timestamp.'] ['.$username.'] : '.$message."\n\n");
 fclose($fb);
+?>
